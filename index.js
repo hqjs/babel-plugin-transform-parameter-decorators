@@ -1,4 +1,4 @@
-export default function({ types }) {
+module.exports = function({ types }) {
   return {
     visitor: {
       Function: function parseFunctionPath(path) {
@@ -35,4 +35,4 @@ export default function({ types }) {
       },
     },
   };
-}
+};
